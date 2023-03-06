@@ -1,5 +1,7 @@
 import { NftList } from "@/components";
 import BaseLayout from "@/components/layout/BaseLayout";
+import { Nft } from "@/types/nft";
+import nfts from "../content/meta.json";
 
 export default function Home() {
   return (
@@ -17,7 +19,7 @@ export default function Home() {
               Mint a NFT to get unlimited ownership forever!
             </p>
           </div>
-          <NftList />
+          <NftList nfts={nfts as Nft[]} />
         </div>
       </div>
     </BaseLayout>
