@@ -2,7 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["eincode.mypinata.cloud"],
+    dangerouslyAllowSVG: true,
+    domains: ["eincode.mypinata.cloud", "tailwindui.com"],
   },
 };
 
