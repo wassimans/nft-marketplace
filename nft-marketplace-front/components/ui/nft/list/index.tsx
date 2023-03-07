@@ -1,6 +1,6 @@
-import { Nft } from "@/types/nft";
+import { Nft } from "@_types/nft";
 import { FunctionComponent } from "react";
-import NftItem from "../item";
+import NftItem from "@ui/nft/item";
 
 type NftListProps = {
   nfts: Nft[];

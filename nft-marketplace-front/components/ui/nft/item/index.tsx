@@ -1,4 +1,4 @@
-import { Nft } from "@/types/nft";
+import { Nft } from "@_types/nft";
 import Image from "next/image";
 import { FunctionComponent } from "react";
 

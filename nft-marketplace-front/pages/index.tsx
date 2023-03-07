@@ -1,6 +1,6 @@
-import { NftList } from "@/components";
-import BaseLayout from "@/components/layout/BaseLayout";
-import { Nft } from "@/types/nft";
+import { NftList } from "@ui";
+import BaseLayout from "@ui/layout/BaseLayout";
+import { Nft } from "@_types/nft";
 import nfts from "../content/meta.json";
 
 export default function Home() {
