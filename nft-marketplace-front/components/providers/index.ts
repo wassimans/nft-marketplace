@@ -1,1 +1,1 @@
-export {default as Web3Provider} from "@providers/web3";
+export { default as Web3Provider } from "@providers/web3";
