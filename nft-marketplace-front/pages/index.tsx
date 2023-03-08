@@ -5,7 +5,7 @@ import { Nft } from "@_types/nft";
 import nfts from "../content/meta.json";
 
 export default function Home() {
-  const { ethereum } = useWeb3();
+  const { contract } = useWeb3();
 
   return (
     <BaseLayout>
